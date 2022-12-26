@@ -46,12 +46,31 @@ section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/login-img.jpg) no-repeat;
     background-size: 500px;
-    background-position: center center;
-    height: 180px;
+    background-position: center right;
+    height: 150px;
 }
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+}
 
+div#formulario > h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+}
+
+div#formulario > h2 {
+    text-align: center;
+    font-size: 1.3em;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 90%;
+
+}
+
+div#formulario > p {
+    text-align: center;
+    margin: auto;
+    width: 90%;
 }
