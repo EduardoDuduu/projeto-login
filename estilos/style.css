@@ -38,7 +38,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.400);
 
-    transition: width 150ms, height 150ms;
+    transition: width 200ms, height 200ms;
     transition-timing-function: ease;
 }
 
@@ -52,80 +52,74 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
+    padding: 5px;
 }
 
 div#formulario > h1 {
     text-align: center;
     font-size: 2em;
-    padding: 5px;
+    margin-bottom: 5px;
 }
 
 div#formulario > h2 {
     text-align: center;
     font-size: 1.3em;
-    margin: auto;
-    margin-bottom: 15px;
-    width: 90%;
-
+    margin-bottom: 5px;
 }
 
 div#formulario > p {
     text-align: center;
-    margin: auto;
-    width: 90%;
+    font-size: 0.9em;
 }
 
-div.campo {
-    width: 95%;
-    height: 30px;
+form > div.campo {
     background-color: #5f2c82;
-    margin: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    height: 40px;
     border-radius: 5px;
+    margin: 5px 0px;
 }
 
-form > div > label {
-    display: none;
-}
+form > div.campo > label {display: none;}
 
 form > input[type=submit] {
     display: block;
     font-size: 1em;
+    color: white;
     background-color: #49a09d;
-    margin: auto;
-    margin-top: 5px;
-    width: 90%;
-    height: 30px;
+    width: 100%;
+    height: 40px;
     border: 1px solid #326e6c;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-form > input[type=submit]:hover{
+form > input[type=submit]:hover {
     background-color: #326e6c;
     border: 1px solid #49a09d;
 }
 
 form > a.botao {
     display: block;
-    font-size: 1em;
     text-align: center;
-    text-decoration: none;
-    color: black;
-    width: 90%;
-    height: 30px;
-    margin: auto;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
     margin-top: 5px;
-    padding-top: 5px;
-    border-radius: 10px;
+    padding-top: 10px;
+    color: black;
     border: 1px solid #49a09d;
-}
-
-form > a > span.material-icons{
-    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 form > a:hover {
+    color: white;
     background-color: #49a09d;
     border: 1px solid #326e6c;
+}
+
+form > a.botao > span {
+    font-size: 0.9em;
 }
