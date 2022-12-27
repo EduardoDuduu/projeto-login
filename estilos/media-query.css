@@ -16,6 +16,7 @@ Grandes telas: acima de 1200px
     
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -29,6 +30,18 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    form > input[type=submit] {
+        display: inline-block;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    form > a.botao {
+        display: block;
+        width: 225px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (min-width: 993px) {
@@ -38,6 +51,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 900px;
+        height: 310px;
     }
 
     section#login > div#imagem {
@@ -49,5 +63,18 @@ Grandes telas: acima de 1200px
     section#login > div#formulario {
         float: left;
         width: 60%;
+    }
+
+    form > input[type=submit] {
+        display: inline-block;
+        width: 100px;
+       margin-top: 5px;
+    }
+
+    form > a.botao {
+        display: inline-block;
+        width: 225px;
+        margin-top: 5px;
+        margin-left: 200px;
     }
 }
